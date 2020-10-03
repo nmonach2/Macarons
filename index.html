@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+    
+        <meta charset="utf-8" />
+        <title>Macarons</title>
+        <link rel="shortcut icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="macarons.css" />
+        <script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+    
+    </head>
+    
+    <body>
+    
+        <div class="box1">
+        
+            <div class="commande_titre">
+                <b>1. FICHE DE COMMANDE :</b>
+            <div>
+            
+            <div class="liste_deroulante">
+                <ul>
+                    <li value="1" id="list_mojito"><img src="images/macaron_mojito.png" />&nbsp;<b>Macaron "MOJITO"</b> <small>(lime, menthe, rhum)</small></li>
+                    <li value="2" id="list_nazca"><img src="images/macaron_nazca.png" />&nbsp;<b>Macaron "NAZCA"</b> <small>(vanille, fève de tonka)</small></li>
+                    <li value="3" id="list_summer"><img src="images/macaron_summer.png" />&nbsp;<b>Macaron "SUMMER"</b> <small>(pastèque, basilic)</small></li>
+                    <li value="4" id="list_winter"><img src="images/macaron_winter.png" />&nbsp;<b>Macaron "WINTER"</b> <small>(pain d'épices, cannelle)</small></li>
+                </ul>
+            </div>
+            
+            <div class = "fleche_liste_deroulante">
+                <p><img src="images/downarrow.jpg" width="25" height="25" /></p>
+            </div>
+            
+            <div class = "inputNombre">
+                <p>Quantité : 
+                    <input class = "number" type="number" id="nombre" value = 0 onclick = "inputNumber()">
+                </p>
+            </div>
+            
+            <div class = "boutonsRadio">
+                <form>
+                    <input type="radio" id="quantite24" name="quantite" onclick="radioClicked()"><label for="male">1<small> plaque</small></label>
+                    <input type="radio" id="quantite48" name="quantite" onclick="radioClicked()"><label for="female">2<small> plaques</small></label>
+                </form>
+            </div>
+            
+            <button class="boutonQuantite" type="button" onclick="ajouterCommande()" >&#128722 Ajouter à la commande</button>
+            
+            <div class="commande">
+            
+                <div class = "commande1" id = "commande1"></div>
+                <div class = "commande1n" id = "commande1n"></div>
+                <div class = "commande1q" id = "commande1q"></div>
+                <div class = "commande1b" id = "commande1b"></div>
+                
+                <div class = "commande2" id = "commande2"></div>
+                <div class = "commande2n" id = "commande2n"></div>
+                <div class = "commande2q" id = "commande2q"></div>
+                <div class = "commande2b" id = "commande2b"></div>
+                
+                <div class = "commande3" id = "commande3"></div>
+                <div class = "commande3n" id = "commande3n"></div>
+                <div class = "commande3q" id = "commande3q"></div>
+                <div class = "commande3b" id = "commande3b"></div>
+                
+                <div class = "commande4" id = "commande4"></div>
+                <div class = "commande4n" id = "commande4n"></div>
+                <div class = "commande4q" id = "commande4q"></div>
+                <div class = "commande4b" id = "commande4b"></div>
+                
+            </div>
+            
+        </div>
+        
+        <div class="box2">
+                
+            <div class="commande_titre">
+                <b>2. LISTE D'ACHATS :</b>
+            <div>
+            
+            <button class="boutonActualiser" type="button" onclick="actualiserAchats()" >&#128260 Actualiser</button>
+            
+            <div id = "container" class="container">
+                <p><small><b>&nbsp;&nbsp;Pour les ganaches :</b></p></small>
+            </div>
+            
+            <div id = "container2" class="container2">
+                <p><small><b>&nbsp;&nbsp;Pour les coques :</b></p></small>
+            </div>
+            
+        <script src="macarons.js"></script>
+        
+    </body>
+    
+</html>
