@@ -1,0 +1,401 @@
+.box1 {
+ position: absolute;
+  top: 5px;
+  left: 5px;
+  height: 260px;
+  width: 420px;
+  padding: 6px 8px;
+  background: rgba(255,255,255,0.5);
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  border-radius: 5px;
+  z-index: 2;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 11pt;
+  color: #777777;
+  z-index: 3;
+}
+
+.box2 {
+ position: absolute;
+  top: 280px;
+  left: 0px;
+  height: 270px;
+  width: 420px;
+  padding: 6px 8px;
+  background: rgba(255,255,255,0.5);
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  border-radius: 5px;
+  z-index: 2;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 11pt;
+  color: #777777;
+  z-index: 3;
+}
+
+.commande_titre {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 406px;
+  height: 17px;
+  padding: 10px 15px;
+  background: rgba(255,255,255,0.5);
+  box-shadow: 0 4px 10px -2px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  z-index: 2;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 11pt;
+  color: #777777;
+  z-index: 1;
+}
+
+.commande {
+  position: absolute;
+  top: 15px;
+  left : 0px;
+}
+
+.liste_deroulante {
+  position: absolute;
+  top: 45px;
+  left: 5px;
+  opacity: 1;
+  z-index: 100000;
+}
+
+.fleche_liste_deroulante {
+  position: absolute;
+  top: 31.5px;
+  left: 398px;
+  opacity: 0.6;
+  z-index: 3500;
+}
+
+.dropdownCell{
+    border : 1px solid #bbb;
+    width: 420px;
+    height: 60px;
+    cursor: pointer;
+    font-family: arial;
+    font-size: 10pt;   
+    max-height: 28px;
+    background: transparent;
+    line-height: 30px;
+    color:#777777;
+    box-shadow: 2px 2px 4px #ddd;
+}
+
+.dropdownCell img{
+    margin : -3px 3px 0px 3px;
+    vertical-align: middle;
+    width: 40px;
+}
+
+.dropdownPanel{
+    border : 1px solid #bbb;
+    width: 420px;
+    position: absolute;
+}
+
+.dropdownOpt{
+    background-color: #fff;
+    cursor: pointer;
+    font-family: arial;
+    font-size: 9.5pt;
+    color:#777777
+}
+
+.dropdownOpt img{
+    margin : 0px 3px 0px 0px;
+    vertical-align: middle;
+    width: 100px;
+}
+
+.dropdownOptSelected{
+    background-color: #e5f2f2;
+}
+
+.inputNombre{
+    position: absolute;
+    top: 75px;
+    left: 5px;
+    opacity: 1;
+    z-index: 10;
+    font-family: arial;
+    font-size: 9.5pt;
+    color:#777777;
+}
+
+.number{
+    width: 40px;
+    font-family: arial;
+    font-size: 9.5pt;
+    color:#777777;
+}
+
+.boutonsRadio{
+    position: absolute;
+    top: 88px;
+    left: 118px;
+    font-family: arial;
+    font-size: 9.5pt;
+    color:#777777;
+}
+
+.boutonQuantite{
+    position: absolute;
+    top: 88px;
+    left: 260px;
+    font-family: arial;
+    font-size: 9.5pt;
+    color:#777777;
+}
+
+.commande1{
+    position: absolute;
+    top: 130px;
+    left: 7px;
+    width : 101px;
+    height : 70px;
+    background-color: none;
+    font-family: arial;
+    font-size: 9.5pt;
+    color:#777777;
+}
+
+.commande1n{
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    top: 205px;
+    left: 0px;
+    width : 101px;
+    height : 20px;
+    background-color: none;
+    font-family: arial;
+    font-size: 9.5pt;
+    color:#777777;
+}
+
+.commande1q{
+    position: absolute;
+    text-align: center;
+    top: 230px;
+    left: 0px;
+    width : 101px;
+    height : 20px;
+    height : 20px;
+    background-color: none;
+    font-family: arial;
+    font-size: 9.5pt;
+    color:#777777;
+}
+
+.commande1b{
+    position: absolute;
+    text-align: center;
+    top: 130px;
+    left: 87px;
+    width : 20px;
+    height : 20px;
+    height : 20px;
+    background-color: none;
+    font-family: arial;
+    font-size: 5pt;
+    color:#777777;
+}
+
+.commande2{
+    position: absolute;
+    top: 130px;
+    left: 113px;
+    width : 101px;
+    height : 70px;
+    background-color: none;
+    font-family: arial;
+    font-size: 9.5pt;
+    color:#777777;
+}
+
+.commande2n{
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    top: 205px;
+    left: 106px;
+    width : 101px;
+    height : 20px;
+    background-color: none;
+    font-family: arial;
+    font-size: 9.5pt;
+    color:#777777;
+}
+
+.commande2q{
+    position: absolute;
+    text-align: center;
+    top: 230px;
+    left: 106px;
+    width : 101px;
+    height : 20px;
+    height : 20px;
+    background-color: none;
+    font-family: arial;
+    font-size: 9.5pt;
+    color:#777777;
+}
+
+.commande2b{
+    position: absolute;
+    text-align: center;
+    top: 130px;
+    left: 193px;
+    width : 20px;
+    height : 20px;
+    height : 20px;
+    background-color: none;
+    font-family: arial;
+    font-size: 5pt;
+    color:#777777;
+}
+
+.commande3{
+    position: absolute;
+    top: 130px;
+    left: 219px;
+    width : 101px;
+    height : 70px;
+    background-color: none;
+    font-family: arial;
+    font-size: 9.5pt;
+    color:#777777;
+}
+
+.commande3n{
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    top: 205px;
+    left: 215px;
+    width : 101px;
+    height : 20px;
+    background-color: none;
+    font-family: arial;
+    font-size: 9.5pt;
+    color:#777777;
+}
+
+.commande3q{
+    position: absolute;
+    text-align: center;
+    top: 230px;
+    left: 215px;
+    width : 101px;
+    height : 20px;
+    height : 20px;
+    background-color: none;
+    font-family: arial;
+    font-size: 9.5pt;
+    color:#777777;
+}
+
+.commande3b{
+    position: absolute;
+    text-align: center;
+    top: 130px;
+    left: 299px;
+    width : 20px;
+    height : 20px;
+    height : 20px;
+    background-color: none;
+    font-family: arial;
+    font-size: 5pt;
+    color:#777777;
+}
+
+.commande4{
+    position: absolute;
+    top: 130px;
+    left: 325px;
+    width : 101px;
+    height : 70px;
+    background-color: none;
+    font-family: arial;
+    font-size: 9.5pt;
+    color:#777777;
+}
+
+.commande4n{
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    top: 205px;
+    left: 318px;
+    width : 101px;
+    height : 20px;
+    background-color: none;
+    font-family: arial;
+    font-size: 9.5pt;
+    color:#777777;
+}
+
+.commande4q{
+    position: absolute;
+    text-align: center;
+    top: 230px;
+    left: 318px;
+    width : 101px;
+    height : 20px;
+    height : 20px;
+    background-color: none;
+    font-family: arial;
+    font-size: 9.5pt;
+    color:#777777;
+}
+
+.commande4b{
+    position: absolute;
+    text-align: center;
+    top: 130px;
+    left: 405px;
+    width : 20px;
+    height : 20px;
+    height : 20px;
+    background-color: none;
+    font-family: arial;
+    font-size: 5pt;
+    color:#777777;
+}
+
+.boutonActualiser{
+    position: absolute;
+    top: 7px;
+    left: 338px;
+    font-family: arial;
+    font-size: 9.5pt;
+    color:#777777;
+}
+
+.container{
+    border:1px solid #bbb;
+    position: absolute;
+    top : 50px;
+    left : 5px;
+    width:205px;
+    height: 225px;
+    overflow-y: scroll;
+    color:#777777;
+    box-shadow: 2px 2px 4px #ddd;
+}
+
+.container2{
+    border:1px solid #bbb;
+    position: absolute;
+    top : 50px;
+    left : 222px;
+    width:205px;
+    height: 225px;
+    overflow-y: scroll;
+    color:#777777;
+    box-shadow: 2px 2px 4px #ddd;
+}
